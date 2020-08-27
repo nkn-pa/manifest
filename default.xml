@@ -10,9 +10,19 @@
            fetch="ssh://git@git.aospa.co/AOSPA" />
 
   <remote  name="aospa"
-           fetch=".."
+           fetch="https://github.com"
            review="gerrit.aospa.co"
            revision="quartz" />
+
+  <remote  name="nkn-pa"
+           fetch="https://github.com/nkn-pa"
+           revision="quartz"/>
+
+  <remote  name="mtresk-gitlab"
+           fetch="https://gitlab.com/mTresk" />
+
+  <remote  name="pixel-gitlab"
+           fetch="https://gitlab.com/PixelExperience" />
 
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la" />
